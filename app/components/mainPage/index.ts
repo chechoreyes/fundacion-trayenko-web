@@ -1,3 +1,4 @@
+export { OurFundation } from './OurFundation';
 export { Contact } from './Contact';
 export { OurTeam } from './OurTeam';
 export { OurProject } from './OurProject';

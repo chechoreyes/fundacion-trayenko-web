@@ -3,18 +3,29 @@ import React from 'react';
 
 export const OurProject = () => {
     return (
-        <div className='h-[100vh] flex flex-row'>
-            <div className='w-1/2 h-full flex flex-row items-center justify-center bg-white'>
-                <Image
-                    src='/letrina.jpg'
-                    alt='Foto de un baño'
-                    layout='responsive' // Esto asegura que la imagen mantenga las proporciones correctas
-                    width={1000} // El ancho original de la imagen
-                    height={750} // La altura proporcional de la imagen
-                    objectFit='cover' // Ajusta la imagen para cubrir el área sin deformarse
-                />
+        <div className='h-screen flex flex-row'>
+            {/* Sección de imágenes sin aire */}
+            <div className='w-1/2 h-full flex flex-col bg-white min-w-0 min-h-0'>
+                <div className='relative w-full h-1/2 flex-shrink-0'>
+                    <Image
+                        src='/SS1.png'
+                        alt='Foto de un baño'
+                        fill
+                        style={{ objectFit: 'cover' }}
+                    />
+                </div>
+                <div className='relative w-full h-1/2 flex-shrink-0'>
+                    <Image
+                        src='/SS2.png'
+                        alt='Foto de un baño'
+                        fill
+                        style={{ objectFit: 'cover' }}
+                    />
+                </div>
             </div>
-            <div className='w-1/2 flex items-center justify-center flex-col gap-4 bg-neutral-300 px-6 py-6'>
+
+            {/* Sección de texto */}
+            <div className='w-1/2 flex items-center justify-center flex-col gap-4 bg-neutral-300 px-20 py-6'>
                 <h1 className='text-neutral-1000 font-bold text-4xl'>
                     Nuestro proyecto
                 </h1>

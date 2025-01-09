@@ -13,17 +13,18 @@ export const SingleTeamComp: React.FC<SingleTeamCompProps> = ({
     image,
 }) => {
     return (
-        <div className='items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700'>
-            <Image
-                className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg h-40'
-                src={`/${image}`}
-                alt={name}
-                width={128} // Establece el ancho fijo
-                height={60} // Establece la altura fija
-                objectFit='cover' // Asegura que la imagen se ajuste al contenedor
-            />
+        <div className='flex flex-col sm:flex-row items-center bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[250px] w-full max-w-2xl'>
+            <div className='relative w-full sm:w-1/2 h-[250px]'>
+                <Image
+                    src={`/${image}`}
+                    alt={name}
+                    layout='fill'
+                    objectFit='cover'
+                    className='rounded-t-lg sm:rounded-l-lg sm:rounded-t-none'
+                />
+            </div>
 
-            <div className='p-5 flex flex-col justify-between gap-4'>
+            <div className='p-5 flex flex-col justify-between gap-4 w-full'>
                 <h3 className='text-xl font-bold tracking-tight text-gray-900 dark:text-white'>
                     {name}
                 </h3>

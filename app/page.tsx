@@ -1,6 +1,7 @@
 import {
     Contact,
     MainPageMainContent,
+    OurFundation,
     OurProject,
     OurTeam,
     WhatWeDo,
@@ -13,6 +14,7 @@ export default function Home() {
             <MainPageMainContent />
             <HowHelpDiv />
             <WhatWeDo />
+            <OurFundation />
             <OurProject />
             <OurTeam />
             <Contact />
