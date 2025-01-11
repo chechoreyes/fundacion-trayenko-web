@@ -2,6 +2,7 @@ import React from 'react';
 import { NavbarLinkComp } from './NavbarLink';
 import Link from 'next/link';
 import { HowHelpButton } from './HowHelpButton';
+import Image from 'next/image';
 
 export const MainNavbar = () => {
     return (
@@ -11,9 +12,12 @@ export const MainNavbar = () => {
                     href='/'
                     className='flex items-center space-x-3 rtl:space-x-reverse'
                 >
-                    <span className='self-center text-2xl font-semibold whitespace-nowrap text-neutral-1000  dark:bg-neutral-dark-800'>
-                        Fundación Trayenko
-                    </span>
+                    <Image
+                        src='/fundaciontrayenkotext.png'
+                        alt='Logo Fundación'
+                        width={160}
+                        height={160}
+                    />
                 </Link>
                 <div className='flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse'>
                     <HowHelpButton />

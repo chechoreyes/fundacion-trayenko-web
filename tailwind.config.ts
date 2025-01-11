@@ -13,7 +13,7 @@ export default {
             colors: {
                 background: 'var(--background)',
                 foreground: 'var(--foreground)',
-                'trayenko-blue': '#00aeeeff',
+                'trayenko-blue': '#009fe3ff',
                 'trayenko-green': '#39b647ff',
                 'neutral-0': '#FFFFFF',
                 'neutral-50': '#f6F7F9',
