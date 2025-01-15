@@ -8,12 +8,14 @@ export const WhatWeDo = () => {
                     Qué hacemos
                 </h1>
                 <p className='text-neutral-1000 text-xl font-normal'>
-                    Fundación Trayenko propone cambiar los sistemas rústicos de
-                    pozos negros o letrinas, a través de un baño con sistema de
-                    alcantarillado básico y eficiente, construyendo una
-                    estructura adosada a la vivienda con acceso directo desde el
-                    interior; desaguando a una fosa e infiltrando en un pozo
-                    absorbente
+                    Fundación Trayenko tiene como propósito principal dar
+                    solución a problemas de habitabilidad, alcantarillado,
+                    saneamiento rural y otros aspectos constructivos de las
+                    viviendas, a través de la construcción de un baño básico con
+                    alcantarillado. A si mismo, buscamos entregar a las familias
+                    capacitación y conocimientos respecto al daño ecológico del
+                    uso de pozos negros y los beneficios de tener un baño
+                    accesible desde el interior la vivienda.
                 </p>
             </div>
         </div>

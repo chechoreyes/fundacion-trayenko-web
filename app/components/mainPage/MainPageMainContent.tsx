@@ -22,12 +22,12 @@ export const MainPageMainContent = () => {
                     <h2 className='text-xl font-bold tracking-tight leading-tight text-neutral-900 md:text-xl lg:text-xl'>
                         Ecosaneamento y habitabilidad    rural
                     </h2>
-                    <p className='text-lg font-normal text-neutral-800 lg:text-xl'>
+                    {/* <p className='text-lg font-normal text-neutral-800 lg:text-xl'>
                         Buscamos eliminar los pozos negros y entregar un baño
                         con sistema de alcantarillado básico y eficiente, que
                         mejore la calidad de vida de familias de zonas rurales
                         de la Región de la Araucanía.
-                    </p>
+                    </p> */}
                 </div>
             </div>
         </div>

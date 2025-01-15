@@ -52,6 +52,11 @@ export const OurTeam = () => {
                     description='Asistente Social Universidad Católica de Chile, con más de 30 años de experiencia de los cuales 22 años se desempeñó en Fundación de Prevención de Violencia Infantil (Previf)'
                     image='vivina-quintanilla-castaneda.jpg'
                 />
+                <SingleTeamComp
+                    name='Daniela Rivera Jiménez'
+                    description='Licenciatura en Lengua y Literatura Inglesas, Universidad de Chile. Periodismo Pontificia Universidad Católica de Chile y diplomado en Estrategias para Contenido Digital'
+                    image='daniela-rivera-jimenez.jpg'
+                />
             </div>
         </div>
     );

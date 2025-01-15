@@ -1,3 +1,4 @@
+export { MotivationAndVision } from './MotivationAndVision';
 export { OurFundation } from './OurFundation';
 export { Contact } from './Contact';
 export { OurTeam } from './OurTeam';
