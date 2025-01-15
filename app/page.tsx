@@ -2,6 +2,7 @@ import {
     Contact,
     MainPageMainContent,
     MotivationAndVision,
+    NewsPageComp,
     OurFundation,
     OurProject,
     OurTeam,
@@ -18,6 +19,7 @@ export default function Home() {
             <OurFundation />
             <WhatWeDo />
             <OurProject />
+            <NewsPageComp />
             <OurTeam />
             <Contact />
         </main>

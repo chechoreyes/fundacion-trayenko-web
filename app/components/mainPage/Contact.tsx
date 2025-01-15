@@ -3,8 +3,8 @@ import React from 'react';
 
 export const Contact = () => {
     return (
-        <div className='h-[100vh] flex flex-row'>
-            <div className='w-1/2 flex items-center justify-center flex-col gap-4 bg-neutral-300 px-6 py-6'>
+        <div className='h-[100vh] flex flex-col md:flex-row'>
+            <div className='h-1/2 md:h-[100vh] md:w-1/2 flex items-center justify-center flex-col gap-4 bg-neutral-300 px-6 py-6'>
                 <h1 className='text-neutral-1000 font-bold text-4xl'>
                     Como ayudar
                 </h1>
@@ -85,7 +85,7 @@ export const Contact = () => {
                     <p>+56 9 9889 5349</p>
                 </div>
             </div>
-            <div className='w-1/2 flex items-center justify-center flex-col gap-4 bg-white px-6 py-6'>
+            <div className='h-1/2 md:h-[100vh] md:w-1/2 flex items-center justify-center flex-col gap-4 bg-white px-6 py-6'>
                 <Image
                     src='/logofundacion.png'
                     alt='Logo Fundacion'

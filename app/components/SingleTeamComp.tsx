@@ -13,14 +13,16 @@ export const SingleTeamComp: React.FC<SingleTeamCompProps> = ({
     image,
 }) => {
     return (
-        <div className='flex flex-col sm:flex-row items-center bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[250px] w-full max-w-2xl'>
-            <div className='relative w-full sm:w-1/2 h-[250px]'>
+        <div className='flex flex-col md:flex-row items-center bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[250px] w-full max-w-2xl'>
+            {/* Ocultar en pantallas menores a md */}
+            <div className='hidden md:block relative w-full md:w-1/2 h-[250px]'>
                 <Image
                     src={`/${image}`}
                     alt={name}
                     layout='fill'
                     objectFit='cover'
-                    className='rounded-t-lg sm:rounded-l-lg sm:rounded-t-none'
+                    objectPosition='top'
+                    className='rounded-l-lg'
                 />
             </div>
 

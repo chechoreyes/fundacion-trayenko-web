@@ -7,7 +7,7 @@ export const HowHelpDiv = () => {
             target='_blank'
             rel='noopener noreferrer'
         >
-            <div className='h-[15vh] bg-trayenko-green text-4xl text-neutral-950 py-8 flex items-center justify-center cursor-pointer font-bold hover:text-neutral-800'>
+            <div className='h-[15vh] bg-trayenko-green text-2xl md:text-4xl text-neutral-950 py-10 md:py-8 px-8 flex items-center justify-center cursor-pointer font-bold hover:text-neutral-800'>
                 Si deseas ayudar, contacta con nosotros aquí
             </div>
         </a>
