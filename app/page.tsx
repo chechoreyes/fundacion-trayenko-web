@@ -6,13 +6,15 @@ import {
     OurFundation,
     OurProject,
     OurTeam,
-    WhatWeDo,
 } from './components/mainPage';
-import { HowHelpDiv } from './components/mainPage/HowHelpDiv';
+import Head from 'next/head';
 
 export default function Home() {
     return (
         <main className=''>
+            <Head>
+                <title>Fundación Trayenko</title>
+            </Head>
             <MainPageMainContent />
             {/* <HowHelpDiv /> */}
             <MotivationAndVision />

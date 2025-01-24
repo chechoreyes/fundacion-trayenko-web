@@ -3,7 +3,7 @@ import React from 'react';
 export const MotivationAndVision = () => {
     return (
         <div className='bg-trayenko-blue flex flex-col md:flex-row gap-4 p-4 '>
-            <div className='md:w-1/2 p-4 flex flex-col gap-4 border-2'>
+            <div className='md:w-1/2 p-8 flex flex-col gap-4 border-2'>
                 <h1 className='text-neutral-1000 font-bold text-4xl'>
                     Motivación
                 </h1>
@@ -23,7 +23,7 @@ export const MotivationAndVision = () => {
                     servicios sanitarios en el área rural.
                 </p>
             </div>
-            <div className='md:w-1/2 p-4 flex flex-col gap-2 border-2 b'>
+            <div className='md:w-1/2 p-8 flex flex-col gap-2 border-2 b'>
                 <h1 className='text-neutral-1000 font-bold text-4xl'>Misión</h1>
                 <p className='text-neutral-900 text-xl font-normal'>
                     Nuestra principal tarea es mejorar las condiciones
