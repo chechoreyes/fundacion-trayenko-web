@@ -14,10 +14,10 @@ export default function Home() {
     return (
         <main className=''>
             <MainPageMainContent />
-            <HowHelpDiv />
+            {/* <HowHelpDiv /> */}
             <MotivationAndVision />
             <OurFundation />
-            <WhatWeDo />
+            {/* <WhatWeDo /> */}
             <OurProject />
             <NewsPageComp />
             <OurTeam />

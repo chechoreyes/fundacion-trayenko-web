@@ -3,7 +3,7 @@ import React from 'react';
 
 export const OurProject = () => {
     return (
-        <div className='h-screen flex flex-row'>
+        <div id='nuestro-proyecto' className='h-screen flex flex-row'>
             {/* Sección de imágenes sin aire */}
             <div className='w-2/5 md:w-1/2 h-full flex flex-col bg-white min-w-0 min-h-0'>
                 <div className='relative w-full h-1/2 flex-shrink-0'>

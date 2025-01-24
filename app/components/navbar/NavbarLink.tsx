@@ -8,7 +8,7 @@ interface NavbarLinkProps {
 export const NavbarLinkComp: React.FC<NavbarLinkProps> = ({ page, title }) => {
     return (
         <li className='text-neutral-1000 hover:text-trayenko-green'>
-            <Link href={`/${page}`}>{title}</Link>
+            <Link href={`#${page}`}>{title}</Link>
         </li>
     );
 };

@@ -18,10 +18,14 @@ export const MainNavbar = () => {
                         width={160}
                         height={160}
                     />
+                    <div className='font-bold'>
+                        <p>Ecosaneamiento y</p>
+                        <p>Habitabitabilidad Rural</p>
+                    </div>
                 </Link>
                 <div className='flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse'>
                     <HowHelpButton />
-                    <button
+                    {/* <button
                         data-collapse-toggle='navbar-cta'
                         type='button'
                         className='inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600'
@@ -44,7 +48,7 @@ export const MainNavbar = () => {
                                 d='M1 1h15M1 7h15M1 13h15'
                             />
                         </svg>
-                    </button>
+                    </button> */}
                 </div>
                 <div
                     className='items-center justify-between hidden w-full md:flex md:w-auto md:order-1'
@@ -59,12 +63,9 @@ export const MainNavbar = () => {
                             title='Nuestro proyecto'
                             page='nuestro-proyecto'
                         />
-                        <NavbarLinkComp title='Notas de interés' page='notas' />
+                        <NavbarLinkComp title='Noticias' page='notas' />
+                        <NavbarLinkComp title='Equipo' page='equipo' />
                         <NavbarLinkComp title='Contacto' page='contacto' />
-                        <NavbarLinkComp
-                            title='Transparencia'
-                            page='transparencia'
-                        />
                     </ul>
                 </div>
             </div>

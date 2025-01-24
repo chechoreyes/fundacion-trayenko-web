@@ -3,7 +3,7 @@ import { SingleTeamComp } from '../SingleTeamComp';
 
 export const OurTeam = () => {
     return (
-        <div className='bg-white px-16 py-10'>
+        <div id='equipo' className='bg-white px-16 py-10'>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
                     Nuestro equipo

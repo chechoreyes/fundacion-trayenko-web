@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
+import { HowHelpButton } from '../navbar/HowHelpButton';
 
 export const Contact = () => {
     return (
-        <div className='h-[100vh] flex flex-col md:flex-row'>
+        <div id='contacto' className='h-[100vh] flex flex-col md:flex-row'>
             <div className='h-1/2 md:h-[100vh] md:w-1/2 flex items-center justify-center flex-col gap-4 bg-neutral-300 px-6 py-6'>
                 <h1 className='text-neutral-1000 font-bold text-4xl'>
                     Como ayudar
@@ -84,10 +85,11 @@ export const Contact = () => {
                     </svg>
                     <p>+56 9 9889 5349</p>
                 </div>
+                <HowHelpButton text='Compártenos tus datos' />
             </div>
             <div className='h-1/2 md:h-[100vh] md:w-1/2 flex items-center justify-center flex-col gap-4 bg-white px-6 py-6'>
                 <Image
-                    src='/logofundacion.png'
+                    src='/logo-corregido.png'
                     alt='Logo Fundacion'
                     width={400}
                     height={400}

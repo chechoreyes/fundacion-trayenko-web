@@ -20,7 +20,7 @@ export const MainPageMainContent = () => {
                         Fundación Trayenko
                     </h1>
                     <h2 className='text-xl font-bold tracking-tight leading-tight text-neutral-100 md:text-neutral-900 md:text-xl lg:text-xl'>
-                        Ecosaneamento y habitabilidad rural
+                        Ecosaneamiento y habitabilidad rural
                     </h2>
                     {/* <p className='text-lg font-normal text-neutral-800 lg:text-xl'>
                         Buscamos eliminar los pozos negros y entregar un baño
