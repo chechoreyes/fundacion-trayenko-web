@@ -7,23 +7,27 @@ import {
     OurProject,
     OurTeam,
 } from './components/mainPage';
-import Head from 'next/head';
+
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Fundación Traykenko',
+};
 
 export default function Home() {
     return (
-        <main className=''>
-            <Head>
-                <title>Fundación Trayenko</title>
-            </Head>
-            <MainPageMainContent />
-            {/* <HowHelpDiv /> */}
-            <MotivationAndVision />
-            <OurFundation />
-            {/* <WhatWeDo /> */}
-            <OurProject />
-            <NewsPageComp />
-            <OurTeam />
-            <Contact />
-        </main>
+        <>
+            <main className=''>
+                <MainPageMainContent />
+                {/* <HowHelpDiv /> */}
+                <MotivationAndVision />
+                <OurFundation />
+                {/* <WhatWeDo /> */}
+                <OurProject />
+                <NewsPageComp />
+                <OurTeam />
+                <Contact />
+            </main>
+        </>
     );
 }

@@ -9,7 +9,7 @@ export const Contact = () => {
                 <h1 className='text-neutral-1000 font-bold text-4xl'>
                     Como ayudar
                 </h1>
-                <div className='text-neutral-1000 text-xl font-normal text-justify flex flex-row gap-4 justify-center items-center'>
+                <div className='text-neutral-1000 text-md md:text-xl font-normal text-justify flex flex-row gap-4 justify-center items-center'>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
                         viewBox='0 0 24 24'
@@ -33,7 +33,7 @@ export const Contact = () => {
                         Cuenta Vista <strong>Banco Estado N°62670121726</strong>
                     </p>
                 </div>
-                <div className='text-neutral-1000 text-xl font-normal text-justify flex flex-row gap-4 justify-center items-center'>
+                <div className='text-neutral-1000 text-md md:text-xl font-normal text-justify flex flex-row gap-4 justify-center items-center'>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
                         viewBox='0 0 24 24'
@@ -51,7 +51,7 @@ export const Contact = () => {
                     </svg>
                     <p>RUT: 65.235.589-7</p>
                 </div>
-                <div className='text-neutral-1000 text-xl font-normal text-justify flex flex-row gap-4 justify-center items-center'>
+                <div className='text-neutral-1000 text-md md:text-xl font-normal text-justify flex flex-row gap-4 justify-center items-center'>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
                         width='24'
@@ -68,7 +68,7 @@ export const Contact = () => {
                     </svg>
                     <p>contacto@fundaciontrayenko.cl</p>
                 </div>
-                <div className='text-neutral-1000 text-xl font-normal text-justify flex flex-row gap-4 justify-center items-center'>
+                <div className='text-neutral-1000 text-md md:text-xl font-normal text-justify flex flex-row gap-4 justify-center items-center'>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
                         viewBox='0 0 24 24'
@@ -91,8 +91,8 @@ export const Contact = () => {
                 <Image
                     src='/logo-corregido.png'
                     alt='Logo Fundacion'
-                    width={400}
-                    height={400}
+                    width={300}
+                    height={300}
                 />
             </div>
         </div>

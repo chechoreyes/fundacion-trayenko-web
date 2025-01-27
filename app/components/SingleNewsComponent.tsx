@@ -13,8 +13,8 @@ export const SingleNewsComponent: React.FC<ISingleNewsComponent> = ({
     image,
 }) => {
     return (
-        <div className='mx-auto p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-1/2 flex flex-col items-center gap-3'>
-            <div className='flex flex-col h-2/5'>
+        <div className='mx-auto p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 md:w-1/2 flex flex-col items-center gap-3'>
+            <div className='flex flex-col'>
                 <h1 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
                     {title}
                 </h1>

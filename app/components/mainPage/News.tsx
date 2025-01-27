@@ -8,7 +8,7 @@ export const NewsPageComp = () => {
                 <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
                     Noticias
                 </h2>
-                <div className='flex flex-row gap-2 h-[90vh]'>
+                <div className='flex flex-col md:flex-row gap-2'>
                     <SingleNewsComponent
                         title='Dideco Lonquimay'
                         image='mun-lonquimay.JPG'
