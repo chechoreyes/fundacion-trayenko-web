@@ -5,30 +5,30 @@ export const OurProject = () => {
     return (
         <div
             id='nuestro-proyecto'
-            className='h-screen flex flex-col md:flex-row'
+            className='md:h-screen h-[200vh] flex flex-col md:flex-row'
         >
-            {/* Sección de imágenes sin aire */}
-            <div className='w-full md:w-1/2 h-full flex flex-col bg-white min-w-0 min-h-0'>
-                <div className='relative w-full h-1/2 flex-shrink-0'>
+            {/* Sección de imágenes */}
+            <div className='w-full md:w-1/2 h-[100vh] md:h-full flex flex-col bg-white'>
+                <div className='relative w-full h-[50vh] md:h-1/2'>
                     <Image
                         src='/SS1.png'
                         alt='Foto de un baño'
                         fill
-                        style={{ objectFit: 'cover' }}
+                        style={{ objectFit: 'contain' }}
                     />
                 </div>
-                <div className='relative w-full h-1/2 flex-shrink-0'>
+                <div className='relative w-full h-[50vh] md:h-1/2'>
                     <Image
                         src='/SS2.png'
                         alt='Foto de un baño'
                         fill
-                        style={{ objectFit: 'cover' }}
+                        style={{ objectFit: 'contain' }}
                     />
                 </div>
             </div>
 
             {/* Sección de texto */}
-            <div className='md:w-1/2 flex items-center justify-center flex-col gap-4 bg-neutral-300 px-20 py-6'>
+            <div className='h-[100vh] md:w-1/2 md:h-full flex items-center justify-center flex-col gap-32 bg-neutral-300 px-6 md:px-20 py-6'>
                 <div className='flex flex-col gap-4'>
                     <h1 className='text-neutral-1000 font-bold text-4xl'>
                         Nuestro proyecto
@@ -43,10 +43,9 @@ export const OurProject = () => {
                         principal.
                     </p>
                 </div>
-                <div>
+                <div className='w-full'>
                     <iframe
-                        // width='560'
-                        // height='315'
+                        className='w-full aspect-video'
                         src='https://www.youtube.com/embed/VxMVj7NgTPw?si=eHhtlZrd-_jByKZg'
                         title='YouTube video player'
                         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
