@@ -36,7 +36,7 @@ export const MainPageMainContent = () => {
                         </div>
                         <div className='w-5/6 md:w-4/5 xl:w-5/6 flex flex-col gap-4 bg-neutral-100 px-2 py-2 rounded-lg shadow-lg'>
                             <h1 className='text-trayenko-blue font-bold text-xl'>
-                                Construimos el cambio de Letrinas (negros) por
+                                Construimos el cambio de Letrinas (pozos negros) por
                                 baños dignos en viviendas rurales de la
                                 Araucanía
                             </h1>
